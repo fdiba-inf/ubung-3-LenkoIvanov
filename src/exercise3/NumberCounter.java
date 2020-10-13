@@ -9,7 +9,7 @@ public class NumberCounter{
     int positivecounter = 0;
     int negativecounter = 0;
     int sum = 0;
-    int average = 0;
+    double average = 0;
 
     System.out.println("Enter a number: ");
     int number = input.nextInt();
@@ -28,6 +28,6 @@ public class NumberCounter{
     System.out.println("Positive numbers: " + positivecounter);
     System.out.println("Negative numbers: " + negativecounter);
     System.out.println("Sum: " + sum);
-    System.out.println("Average: " + (average/2));
+    System.out.println("Average: " + (average/2.0));
   }
 }
