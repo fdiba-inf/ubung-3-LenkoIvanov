@@ -11,7 +11,6 @@ public class NumberCounter{
     int sum = 0;
     double average = 0;
 
-    System.out.println("Enter a number: ");
     int number = input.nextInt();
 
     while(number != 0 ){
