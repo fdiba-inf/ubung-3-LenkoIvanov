@@ -8,7 +8,7 @@ public class NumberCounter{
 
     int positivecounter = 0;
     int negativecounter = 0;
-    int sum = 0;
+    double sum = 0;
     double average = 0;
 
     int number = input.nextInt();
