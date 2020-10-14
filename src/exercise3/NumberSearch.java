@@ -11,7 +11,7 @@ public class NumberSearch{
           System.out.print(" ");
           counter++;
           }
-          if(counter == 10){
+          if(i % 30 == 0 && counter == 10){
             counter = 0;
             System.out.print("\n");
           }
