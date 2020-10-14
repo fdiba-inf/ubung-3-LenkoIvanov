@@ -10,8 +10,8 @@ public class NumberSearch{
           System.out.print(i);
           System.out.print(" ");
           counter++;
+          }
           if(counter == 10){
-            System.out.print(i);
             counter = 0;
             System.out.print("\n");
           }
@@ -19,4 +19,3 @@ public class NumberSearch{
        }
      }
   }
-}
