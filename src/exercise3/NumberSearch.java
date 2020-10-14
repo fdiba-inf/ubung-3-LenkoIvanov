@@ -10,12 +10,10 @@ public class NumberSearch{
           System.out.print(i);
           System.out.print(" ");
           counter++;
-          if(counter == 10){
+          if(counter == 10 || counter == 20){
             System.out.println();
           }
-          if(counter == 20){
-            System.out.println();
-          }
+          
        }
      }
   }
