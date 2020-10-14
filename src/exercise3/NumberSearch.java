@@ -6,7 +6,7 @@ public class NumberSearch{
      int counter = 0;
 
      for(int i = 100; i <= 1000; i++){
-       if(i % 30 == 0 && counter < 10){
+       if(i % 30 == 0 && counter <= 9){
           System.out.print(i);
           System.out.print(" ");
           counter++;
