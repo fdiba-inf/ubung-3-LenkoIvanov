@@ -16,7 +16,7 @@ public class Triangle{
 
     do{
       if(a < b + c && b < a + c && c < a + b){
-           if(a == b && b == c){
+           if(a == b && b == c && a == c){
             type = "equilateral";
             System.out.println("Area: " + area);
             System.out.println("Triangle: " + type);
