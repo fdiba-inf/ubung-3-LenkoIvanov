@@ -27,9 +27,13 @@ public class Triangle{
             System.out.println("Triangle: " + type);
 
         }else{
-          System.out.println("Values are not correct!")
+          System.out.println("Values are not correct!");
         }
 
+        a = input.nextDouble();
+        b = input.nextDouble();
+        c = input.nextDouble();
+        
     }while(a > 0 && b > 0 && c > 0);
   }
 }
